@@ -56,6 +56,13 @@ function battle (input) {
 
     switch(outcome) {
         case 'tie':
-            document.getElementById('outcome')
+            document.getElementById('outcome').innerHTML = "Tie Game";
+            break;
+        case 'won':
+            document.getElementById('outcome').innerHTML = "You Won!";
+            break;
+        case 'lost':
+            document.getElementById('outcome').innerHTML = "You Lost :(";
+            break;
     }
 }
