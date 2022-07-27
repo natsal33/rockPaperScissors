@@ -1,13 +1,17 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 #scoreSection {
     display: flex;
+    justify-content: center;
+    color: green;
 }
 
 div .score { 
     display: flex;
+    justify-content: center;
 }
 
 button {

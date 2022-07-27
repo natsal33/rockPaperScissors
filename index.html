@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
     <link rel='styleSheet' href='./style.css'>
     <title>Document</title>
 </head>
@@ -20,9 +21,14 @@
     
     <!--- Button Section --->
     <div id='buttons'>
-        <button title='rock' id='rockButton'></button>
+        <button type='click' title='rock' id='rockButton'></button>
         <button title='paper' id='paperButton'></button>
         <button title='scissors' id='scissorsButton'></button>
+    </div>
+
+    <div id='botDiv'>
+        <h3>Bot's Choice: <span id='botChoice'></span></h3>
+        <h3 id='outcome'></h3>
     </div>
 
 </body>
