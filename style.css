@@ -1,0 +1,44 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#scoreSection {
+    display: flex;
+}
+
+div .score { 
+    display: flex;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+    border-color: white;
+
+}
+
+button:hover {
+    border-color: black;
+}
+
+button:active {
+    border-color: red;
+}
+
+#rockButton {
+    background: url(./pictures/rock.png);
+    background-size: cover;
+}
+
+#paperButton {
+    background: url(./pictures/paper.png);
+    background-size: cover;
+}
+
+#scissorsButton {
+    background: url(./pictures/scissors.png);
+    background-size: cover;
+}
